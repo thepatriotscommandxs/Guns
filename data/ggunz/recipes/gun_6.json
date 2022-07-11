@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "I  ",
+        "LIS",
+        "P-L"
+    ],
+    "key": {
+        "L": {
+            "tag": "minecraft:logs"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        },
+        "-": {
+            "item": "minecraft:iron_block"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"placeholder": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ggunz:lasersight"
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:recipe/lasersight"
+	}
+}

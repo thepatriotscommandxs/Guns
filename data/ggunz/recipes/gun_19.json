@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " GI",
+        "BNB",
+        "LIO"
+    ],
+    "key": {
+        "G": {
+            "item": "minecraft:glass"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+		"B": {
+			"item": "minecraft:iron_block"
+		},
+		"N": {
+			"item": "minecraft:nether_star"
+		},
+		"L": {
+			"item": "minecraft:lever"
+		},
+		"O": {
+			"item": "minecraft:orange_concrete"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

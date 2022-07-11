@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IT ",
+        "TIR",
+        " SL"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+		"L": {
+			"item": "minecraft:lever"
+		},
+		"T": {
+			"item": "minecraft:iron_trapdoor"
+		},
+		"R": {
+			"item": "minecraft:redstone"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"placeholder": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "ggunz:gun_22_s"
+			}
+		}
+	},
+	"rewards": {
+		"function": "ggunz:recipe/gun_22_s"
+	}
+}

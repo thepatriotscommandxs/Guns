@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " BB",
+        "IBB",
+        "IS "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

@@ -1,0 +1,53 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"translate": "ggunz.item.name.suppressor",
+									"color": "yellow",
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:88921, HideFlags:32}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.movement_speed",
+									"name": "Speed",
+									"amount": 0.00,
+									"operation": "multiply_base",
+									"slot": [
+										"mainhand"
+									]
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"name": "Speed",
+									"amount": 0.00,
+									"operation": "multiply_base",
+									"slot": [
+										"offhand"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

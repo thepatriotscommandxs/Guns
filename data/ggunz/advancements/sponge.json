@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "ggunz:sponge"
+            }
+        }
+    },
+    "rewards": {
+        "function": "ggunz:give_lava_sponge"
+    }
+}

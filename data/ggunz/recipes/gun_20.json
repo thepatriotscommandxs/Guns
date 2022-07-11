@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " OI",
+        "RRR",
+        "LTI"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:iron_trapdoor"
+        },
+		"I": {
+			"item": "minecraft:iron_block"
+		},
+		"R": {
+			"item": "minecraft:redstone_block"
+		},
+		"L": {
+			"item": "minecraft:lever"
+		},
+		"O": {
+			"item": "minecraft:orange_concrete"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

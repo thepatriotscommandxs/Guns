@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "OPB",
+        "IOI",
+        "IRB"
+    ],
+    "key": {
+        "P": {
+            "item": "minecraft:glass_pane"
+        },
+        "O": {
+            "item": "minecraft:orange_concrete"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+		"R": {
+			"item": "minecraft:redstone_block"
+		},
+		"B": {
+			"item": "minecraft:bedrock"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

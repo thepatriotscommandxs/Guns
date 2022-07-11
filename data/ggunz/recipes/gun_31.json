@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "II ",
+        "GRS",
+        "IIL"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:iron_block"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "G": {
+            "item": "minecraft:green_stained_glass"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

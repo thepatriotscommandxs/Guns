@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRI",
+        "OIB",
+        "ISB"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "B": {
+            "item": "minecraft:black_concrete"
+        },
+        "R": {
+            "item": "minecraft:red_concrete"
+        },
+        "O": {
+            "item": "minecraft:orange_concrete"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

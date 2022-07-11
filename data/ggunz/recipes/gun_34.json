@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BB ",
+        " RS",
+        "BBL"
+    ],
+    "key": {
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "S": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

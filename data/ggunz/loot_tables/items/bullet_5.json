@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:nether_star",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlags:1, gz_data:{bullet_type:6}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

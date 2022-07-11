@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IP ",
+        "LPF",
+        " LB"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "B": {
+            "item": "minecraft:stone_button"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        },
+		"L": {
+			"tag": "minecraft:logs"
+		},
+		"F": {
+			"tag": "minecraft:fences"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

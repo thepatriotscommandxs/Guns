@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BCC",
+        "CBL",
+        "CR "
+    ],
+    "key": {
+        "R": {
+            "item": "minecraft:redstone"
+        },
+		"B": {
+			"item": "minecraft:iron_block"
+		},
+		"L": {
+			"item": "minecraft:lever"
+		},
+		"C": {
+			"item": "minecraft:copper_block"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

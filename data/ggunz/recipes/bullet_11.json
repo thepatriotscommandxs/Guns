@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "GNG",
+        "GIG",
+        "GBG"
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:diamond"
+        },
+        "B": {
+            "item": "minecraft:iron_block"
+        },
+        "I": {
+            "item": "minecraft:netherite_ingot"
+        },
+		"G": {
+            "item": "minecraft:tnt"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

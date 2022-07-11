@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LTT",
+        "RNI",
+        "BL "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:iron_block"
+        },
+		"B": {
+			"item": "minecraft:stone_button"
+		},
+		"T": {
+			"item": "minecraft:iron_trapdoor"
+		},
+		"R": {
+			"item": "minecraft:repeater"
+		},
+		"L": {
+			"tag": "minecraft:logs"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

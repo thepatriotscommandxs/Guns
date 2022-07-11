@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TTT",
+        "III",
+        " S "
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:tnt"
+        },
+		"I": {
+            "item": "minecraft:iron_block"
+        },
+		"S": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

@@ -1,0 +1,77 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": [
+								{
+									"translate": "ggunz.item.name.gun_28",
+									"color": "yellow",
+									"italic": false
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "ggunz.item.desc.line1",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"translate": "ggunz.item.desc.line2",
+										"color": "blue",
+										"italic": false
+									},
+									{
+										"text": "2.7s"
+									}
+								],
+								{
+									"text":"Uses Rocket Laucher Ammo"
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{CustomModelData:88941, gz_data:{capacity:6, bullets:0, reload_time:2.7, id:44},HideFlags:32}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "generic.movement_speed",
+									"name": "Speed",
+									"amount": 0.00,
+									"operation": "multiply_base",
+									"slot": [
+										"mainhand"
+									]
+								},
+								{
+									"attribute": "generic.movement_speed",
+									"name": "Speed",
+									"amount": -0.50,
+									"operation": "multiply_base",
+									"slot": [
+										"offhand"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

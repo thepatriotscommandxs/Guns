@@ -1,0 +1,677 @@
+{
+	"pools": [
+		{
+			"rolls":1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_0",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 0
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_1",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 1
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_2",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 2
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_3",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 3
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_5",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 5
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_6",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 6
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_7",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 7
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_8",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 8
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_9",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 9
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_10",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 10
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_11",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 11
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_12",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 12
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_13",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 13
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_14",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 14
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_15",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 15
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_16",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 16
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_17",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 17
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_18",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 18
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_19",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 19
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_20",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 20
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_21",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 21
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_22",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 22
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_23",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 23
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_24",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 24
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_25",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 25
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_26",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 26
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_6_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 27
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_8_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 28
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_10_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 29
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_11_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 30
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_15_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 31
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_16_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 32
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_17_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 33
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_18_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 34
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_20_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 35
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_21_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 36
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_22_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 38
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_23_s",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 39
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_11_l",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 40
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_21_l",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 41
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_22_l",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 42
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_27",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 43
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_28",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 44
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_29",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 45
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_30",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 46
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_31",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 47
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_32",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 48
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_33",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 49
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_34",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 50
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_35",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 51
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "ggunz:gun_36",
+							"conditions": [
+								{
+									"condition": "entity_scores",
+									"entity": "this",
+									"scores": {
+										"gz_id": 52
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

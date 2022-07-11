@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " S ",
+        "ISP",
+        " SL"
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+		"L": {
+			"item": "minecraft:lever"
+		},
+		"P": {
+			"tag": "minecraft:planks"
+		}
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}
