@@ -24,5 +24,6 @@ execute if entity @s[tag=gz_bullet_26] run function ggunz:projectiles/hit/block/
 execute if entity @s[tag=gz_bullet_26] run function ggunz:projectiles/hit/block/bullet_27
 execute if entity @s[tag=gz_bullet_35] run function ggunz:projectiles/hit/block/bullet_35
 
+
 execute unless entity @s[tag=gz_continue] run function ggunz:projectiles/hit/block/solid
 tag @s remove gz_continue

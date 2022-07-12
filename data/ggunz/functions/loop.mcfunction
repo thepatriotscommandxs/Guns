@@ -6,6 +6,13 @@ scoreboard players add @a[tag=gz_shoot,scores={shootingdelay=0}] shootingdelay 1
 scoreboard players set @a[tag=!shootinginit] shootingdelay 0
 tag @a[scores={shootingdelay=0..}] add shootinginit
 
+scoreboard players set @a[tag=!shootcountinit] shotcounterdelay 0
+tag @a[scores={shotcounterdelay=0..}] add shootcountinit
+
+
+scoreboard players remove @a[scores={shotcounterdelay=0..}] shotcounterdelay 1
+scoreboard players set @a[scores={shotcounterdelay=0}] shotcounter 0
+
 execute as @a run function ggunz:utilities/player_tick
 function ggunz:utilities/shooting_delay
 function ggunz:utilities/dolphin

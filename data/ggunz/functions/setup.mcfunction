@@ -46,4 +46,6 @@ execute if entity @a[tag=!prefsmod] run scoreboard players set GLOBAL spray 0
 execute if entity @a[tag=!prefsmod] run scoreboard players set GLOBAL camera 0
 execute if entity @a[tag=!prefsmod] run scoreboard players set GLOBAL bloom 1
 execute if entity @a[tag=!prefsmod] run scoreboard players set GLOBAL recoil 1
+scoreboard objectives add shotcounter dummy
+scoreboard objectives add shotcounterdelay dummy
 
