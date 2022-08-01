@@ -51,7 +51,7 @@ execute if entity @s[type=!#ggunz:undead,scores={shotgunHit=14}] run effect give
 execute if entity @s[type=!#ggunz:undead,scores={shotgunHit=14}] run effect give @s minecraft:poison 1 4 true
 execute if entity @s[type=!#ggunz:undead,scores={shotgunHit=14}] run effect give @s minecraft:instant_damage 1 2 true
 
-execute if entity @s[type=!#ggunz:undead,scores={shotgunHit=15}] run effect give @s minecraft:instant_damage 1 0 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHit=15..}] run effect give @s minecraft:instant_damage 1 0 true
 
 
 execute if entity @s[type=end_crystal] run summon arrow ~ ~3 ~ {Motion:[0.0,-5.0,0.0],damage:0}
@@ -106,7 +106,121 @@ execute if entity @s[type=#ggunz:undead,scores={shotgunHit=14}] run effect give 
 execute if entity @s[type=#ggunz:undead,scores={shotgunHit=14}] run effect give @s minecraft:regeneration 1 4 true
 execute if entity @s[type=#ggunz:undead,scores={shotgunHit=14}] run effect give @s minecraft:instant_health 1 2 true
 
-execute if entity @s[type=#ggunz:undead,scores={shotgunHit=15}] run effect give @s minecraft:instant_health 1 0 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHit=15..}] run effect give @s minecraft:instant_health 1 0 true
 
-execute if entity @s[type=!player] run data merge entity @s {Fire:100s}
+
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=1}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=1}] run effect give @s minecraft:poison 2 0 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=2}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=2}] run effect give @s minecraft:absorption 1 0 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=2}] run effect give @s minecraft:instant_damage 1 3 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=3}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=3}] run effect give @s minecraft:instant_damage 1 0 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=4}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=4}] run effect give @s minecraft:poison 2 0 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=4}] run effect give @s minecraft:instant_damage 1 0 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=5}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=5}] run effect give @s minecraft:instant_damage 1 0 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=6}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=6}] run effect give @s minecraft:instant_damage 1 0 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=7}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=7}] run effect give @s minecraft:poison 1 0 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=7}] run effect give @s minecraft:instant_damage 1 1 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=8}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=8}] run effect give @s minecraft:absorption 1 0 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=8}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=9}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=9}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=10}] run effect give @s minecraft:instant_damage 1 1 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=11}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=11}] run effect give @s minecraft:poison 1 1 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=11}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=12}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=12}] run effect give @s minecraft:poison 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=12}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=13}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=13}] run effect give @s minecraft:poison 1 3 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=13}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=14}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=14}] run effect give @s minecraft:poison 1 4 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=14}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=15..}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=15..}] run effect give @s minecraft:poison 1 4 true
+execute if entity @s[type=!#ggunz:undead,scores={shotgunHeadshot=15..}] run effect give @s minecraft:instant_damage 1 2 true
+
+execute if entity @s[type=end_crystal] run summon arrow ~ ~3 ~ {Motion:[0.0,-5.0,0.0],damage:0}
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=1}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=1}] run effect give @s minecraft:regeneration 2 0 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=2}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=2}] run effect give @s minecraft:absorption 1 0 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=2}] run effect give @s minecraft:instant_health 1 3 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=3}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=3}] run effect give @s minecraft:instant_health 1 0 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=4}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=4}] run effect give @s minecraft:regeneration 2 0 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=4}] run effect give @s minecraft:instant_health 1 0 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=5}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=5}] run effect give @s minecraft:instant_health 1 0 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=6}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=6}] run effect give @s minecraft:instant_health 1 0 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=7}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=7}] run effect give @s minecraft:regeneration 1 0 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=7}] run effect give @s minecraft:instant_health 1 1 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=8}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=8}] run effect give @s minecraft:absorption 1 0 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=8}] run effect give @s minecraft:instant_health 1 2 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=9}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=9}] run effect give @s minecraft:instant_health 1 2 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=10}] run effect give @s minecraft:instant_health 1 1 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=11}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=11}] run effect give @s minecraft:regeneration 1 1 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=11}] run effect give @s minecraft:instant_health 1 2 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=12}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=12}] run effect give @s minecraft:regeneration 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=12}] run effect give @s minecraft:instant_health 1 2 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=13}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=13}] run effect give @s minecraft:regeneration 1 3 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=13}] run effect give @s minecraft:instant_health 1 2 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=14}] run effect give @s minecraft:resistance 1 2 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=14}] run effect give @s minecraft:regeneration 1 4 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=14}] run effect give @s minecraft:instant_health 1 2 true
+
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=15..}] run effect give @s minecraft:resistance 1 1 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=15..}] run effect give @s minecraft:regeneration 1 4 true
+execute if entity @s[type=#ggunz:undead,scores={shotgunHeadshot=15..}] run effect give @s minecraft:instant_health 1 2 true
+
+tag @e remove gz_headshot
+
+scoreboard players reset @s shotgunHeadshot
+
+execute if entity @s[type=player] run data merge entity @s {Fire:100s}
 execute if entity @s[type=player] as @s at @s run summon small_fireball ~ ~2.1 ~ {Motion:[0.0,-1.0,0.0]}

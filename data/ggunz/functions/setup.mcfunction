@@ -14,6 +14,7 @@ scoreboard objectives add removeBullet dummy
 scoreboard objectives add tommysound dummy
 scoreboard objectives add ageflare dummy
 scoreboard objectives add shotgunHit dummy
+scoreboard objectives add shotgunHeadshot dummy
 scoreboard objectives add lightRemover minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add removerGive trigger
 scoreboard objectives add _playerlist dummy
